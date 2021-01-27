@@ -40,12 +40,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<img src="Gamescreen.png" alt="Gamescreenshot" width="250" height="80">
+<img src="Gamescreen.png" alt="Gamescreenshot" width="896" height="216">
 
 
 ### Built With
 
-* ["Java"]()
+* [Java](https://www.java.com/en/)
 
 
 
