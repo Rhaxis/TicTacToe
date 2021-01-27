@@ -42,6 +42,8 @@
 ## About The Project
 <img src="Gamescreen.png" alt="Gamescreenshot" width="896" height="216">
 
+The game was done during my first year in school for the basics of programming course, which consisted of Java. It has a simple AI that will place a random marker after the player.
+It is possible to adjust the size of the gamefield and how many marks in a row are required.
 
 ### Built With
 
@@ -57,21 +59,24 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Java
   ```sh
-  npm install npm@latest -g
+  https://www.java.com/en/download/
   ```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Rhaxis/TicTacToe.git
    ```
-2. Install NPM packages
+2. Compile
    ```sh
-   npm install
+   javac src/TicTacToeGame.java
+   ```
+3. Run
+   ```sh
+   java -cp src TicTacToeGame
    ```
 
 
@@ -79,54 +84,17 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+After running the game the player will get instructions on how to set the size of the gamefield and the marks in a row to win. Input is given on the command line with just numbers and submit via return. To close down the game simply press ctrl + c or close the command line interface.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Ville Ekholm - [@twitter_handle](https://twitter.com/twitter_handle) - ville.ekholm88@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Rhaxis/TicTacToe](https://github.com/Rhaxis/TicTacToe)
 
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
 
 
 
